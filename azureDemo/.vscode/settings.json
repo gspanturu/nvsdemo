@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d7a7d6e3-6666-4220-8cab-1d1e8352d303/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/DistAppSara",
+    "appService.deploySubpath": "dist"
+}
