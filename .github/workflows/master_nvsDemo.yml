@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - saraangularapp
+name: Build and deploy Node.js app to Azure Web App - nvsDemo
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'saraangularapp'
+        app-name: 'nvsDemo'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_62dea300227843af8847152f83e9602b }}
         package: .
