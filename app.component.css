@@ -1,0 +1,12 @@
+div{
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
